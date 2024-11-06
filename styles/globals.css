@@ -1,0 +1,41 @@
+/* styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Typography */
+body {
+  @apply font-sans text-gray-900;
+}
+
+/* Global Layout */
+body,
+html {
+  @apply h-full;
+}
+
+/* Global Background */
+body {
+  @apply bg-gray-100;
+}
+
+/* Header Styling */
+.header {
+  @apply bg-white shadow-md px-4 py-3;
+}
+
+/* Main Content Styling */
+.main {
+  @apply container mx-auto mt-10;
+}
+
+/* Footer Styling */
+.footer {
+  @apply bg-gray-200 text-center py-4 mt-10;
+}
+
+/* Button Styling */
+.button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
