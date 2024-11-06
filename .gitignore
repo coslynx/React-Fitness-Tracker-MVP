@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules
+
+# Next.js build output
+dist
+
+# Exclude user-specific profile pictures
+public/images/profile-pictures/*
+
+# Exclude log files
+*.log
+
+# Exclude database files
+*.db
+
+# Include necessary configuration files
+next.config.js
+tailwind.config.js
+tsconfig.json
+.eslintrc.js
+.prettierrc
+
+# Exclude environment variables
+.env.local
